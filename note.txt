@@ -1,0 +1,38 @@
+Cấu trúc file hiện tại như sau:
+"""
+TSP-Metaheuristic-Comparison/
+├── src/
+│   ├── algorithms/
+│   │   ├── aco.py
+│   │   ├── pso.py
+│   │   ├── greedy.py
+│   │   ├── branch_and_bound.py
+│   │   ├── device_and_conquer.py
+│   │   └── brute_force.py
+│   ├── data/ # Folder này đã có đầy đủ
+│   │   ├── cities_1024.data
+│   │   ├── cities_16.data
+│   │   ├── cities_20.data
+│   │   ├── cities_22.data
+│   │   ├── cities_256.data
+│   │   ├── cities_32.data
+│   │   ├── cities_322.data
+│   │   ├── cities_40.data
+│   │   ├── cities_48.data
+│   │   ├── cities_51.data
+│   │   ├── cities_64.data
+│   │   └── cities_8.data
+│   ├── assets/ # Nơi lưu trữ các file .png, .gif,... sau khi chạy chương trình
+│   ├── util.py # thao tác với dữ liệu, tạo các điểm (city) từ dữ liệu
+│   └── main.py
+├── docs/
+│   ├── report.PDF
+│   └── slides.PDF
+├── requirements.txt
+├── LICENSE
+├── CONTRIBUTING.md
+└── README.md
+"""
+1. Việc cần làm tiếp theo là check lại tại sao biểu đồ chi phí qua các kích thước không có biến động đáng kể giữa 2 thuật toán PSO và tham lam.
+2. Thêm các thuật toán chia để trị, ACO để đối chiếu.
+Lưu ý: xóa sạch tất cả các thư mục, file có trong assets trước khi run main.py; xem xét lại chia để trị
