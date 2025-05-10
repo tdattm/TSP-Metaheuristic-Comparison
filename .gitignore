@@ -20,6 +20,4 @@ venv/
 Thumbs.db
 
 # Project-specific
-src/assets/*.png
-src/assets/*.gif
 *.log

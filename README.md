@@ -13,7 +13,7 @@ Dự án được thực hiện trong khuôn khổ bài tập lớn môn Thiết
 - Đánh giá: So sánh hiệu suất các thuật toán dựa trên thời gian chạy, chất lượng lời giải (tổng khoảng cách), và độ ổn định trên các tập dữ liệu với số lượng thành phố khác nhau (từ 8 đến 1024).
 - Kết quả trực quan: Biểu đồ đường đi tối ưu và biểu đồ cột so sánh hiệu suất các thuật toán.
 
-![So sách chi phí với đa dạng thành phố (city)](src/assets/cost_multi_size.png)
+![So sách chi phí với đa dạng thành phố (city)](src/assets/cost_multi_size.PNG)
 
 ## Thông tin thêm
 **Giảng viên hướng dẫn:** [PGS.TS. Nguyễn Thị Hồng Minh](https://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-thi-hong-minh-1863.html), [CN. Trần Bá Tuấn](https://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/tran-ba-tuan-3033.html).
