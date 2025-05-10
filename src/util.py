@@ -22,16 +22,6 @@ def read_cities(size):
             cities.append(City(x, y))
     return cities
 
-def write_cities_and_return_them(size):
-    cities = generate_cities(size)
-    with open(f'data/cities_{size}.data', 'w+') as handle:
-        for city in cities:
-            handle.write(f'{city.x} {city.y}\n')
-    return cities
-
-def generate_cities(size):
-    return [City(x=int(random.random() * 1000), y=int(random.random() * 1000)) for _ in range(size)]
-
 def path_cost(route):
     return sum([city.distance(route[index - 1]) for index, city in enumerate(route)])
 
